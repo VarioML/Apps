@@ -14,10 +14,26 @@ import scala.collection.JavaConversions._
  * 
  * note: implicit connection is given in package object 
  */
-
-case class LovdAllele(id: Pk[Long] = NotAssigned, name: String, display_order: Boolean)
-object LovdAllele {
+abstract class Dao(  val table : String) {
   
+  def getPK( id: Pk[Long]): Pk[Long] = {
+    if ( id.isDefined ) {
+      return new Id(id.get) ;
+    } else {
+	    val pk: Long = SQL("select max(id) from "+table).as(scalar[Long].single)
+	    return new Id(pk + 1);      
+    }
+  }
+  
+  
+
+}
+case class LovdAllele(val id: Pk[Long] = NotAssigned, name: String, 
+    display_order: Boolean)  
+	extends Dao("lovd_allele") 
+
+object LovdAllele {
+
   //parser for all fields
   val simple = {
     get[Pk[Long]]("id") ~
@@ -41,13 +57,7 @@ object LovdAllele {
   }
 
   def create(allele: LovdAllele): LovdAllele = {
-    val id =
-      //redefine the lovd column to use auto increments for primary keys
-      if (allele.id.isDefined) {
-        allele.id.get
-      } else {
-        getNextPK().get
-      }
+    val id = allele.getPK(allele.id).get;
     val res = SQL("insert into lovd_alleles(id,name, display_order) values ({id},{name}, {display_order})").on(
       'id -> id,
       'name -> allele.name,

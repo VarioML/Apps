@@ -19,5 +19,6 @@ libraryDependencies ++= Seq(
 //# 
 //#resolvers += Classpaths.typesafeSnapshots
 //#addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0-SNAPSHOT")
-
+// global def may not work with play ?
+//http://www.jamesward.com/2012/02/21/play-framework-2-with-scala-anorm-json-coffeescript-jquery-heroku
 
