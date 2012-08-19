@@ -33,14 +33,14 @@ public class TestMongo {
 		CafeVariome cafeVariome  = (CafeVariome)util.readEXI("schema/cafe_variome.xsd", "data/1KG.exi",CafeVariome.class);
 		List<Variant> variants = cafeVariome.getVariantList();
 		for (Variant variant : variants) {
-			DBObject obj = util.insert(collection, variant);
+			DBObject obj = util.insert(collection, variant,"variant");
 		}
 		DBCursor cursor = collection.find();
         try {
             while(cursor.hasNext()) {
                 DBObject v = cursor.next();
-                Variant _v = (Variant)util.encode(v, Variant.class);
-                System.err.println(_v.getName().getString()+" JSON: "+((DBObject)v.get("name")).get("string"));
+                Variant _v = (Variant)util.encode(v, Variant.class,"variant");
+                System.err.println(_v.getName().getString()+" JSON: "+((DBObject)v.get("variant")).get("name"));
             }
         } finally {
             cursor.close();
