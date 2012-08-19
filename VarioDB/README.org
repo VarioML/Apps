@@ -1,1 +1,3 @@
 Simple (and experimental) MongoDB frontend for the VarioML
+
+include varioml java project into your eclipse project
