@@ -1,5 +1,5 @@
 Apps
 ====
 
-Applications 
+Demo applications
 
