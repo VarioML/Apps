@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:mutalyzer_results xmlns:ns2="http://varioml.org/xml/1.0">
+    <ns2:variant type="DNA">
+        <ns2:ref_seq source="refseq" accession="NC_000001.10"/>
+        <ns2:name scheme="HGVS">g.100315752C&gt;G</ns2:name>
+        <ns2:aliases>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000028.2"/>
+                <ns2:name scheme="HGVS">c.-771C&gt;G</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000642.2"/>
+                <ns2:name scheme="HGVS">c.-288C&gt;G</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000643.2"/>
+                <ns2:name scheme="HGVS">c.-491C&gt;G</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000644.2"/>
+                <ns2:name scheme="HGVS">c.-431C&gt;G</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000646.2"/>
+                <ns2:name scheme="HGVS">c.-1038C&gt;G</ns2:name>
+            </ns2:variant>
+        </ns2:aliases>
+        <ns2:location>
+            <ns2:ref_seq accession="hg19"/>
+            <ns2:chr>1</ns2:chr>
+            <ns2:start>100315752</ns2:start>
+        </ns2:location>
+    </ns2:variant>
+    <ns2:variant type="DNA">
+        <ns2:ref_seq source="refseq" accession="NC_000001.10"/>
+        <ns2:name scheme="HGVS">g.155259323C&gt;T</ns2:name>
+        <ns2:aliases>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000298.5"/>
+                <ns2:name scheme="HGVS">c.*1040G&gt;A</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_181871.3"/>
+                <ns2:name scheme="HGVS">c.*1040G&gt;A</ns2:name>
+            </ns2:variant>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_020897.1"/>
+                <ns2:name scheme="HGVS">c.*1069C&gt;T</ns2:name>
+            </ns2:variant>
+        </ns2:aliases>
+        <ns2:location>
+            <ns2:ref_seq accession="hg19"/>
+            <ns2:chr>1</ns2:chr>
+            <ns2:start>155259323</ns2:start>
+        </ns2:location>
+    </ns2:variant>
+    <ns2:variant type="DNA">
+        <ns2:ref_seq source="refseq" accession="NC_000019.9"/>
+        <ns2:name scheme="HGVS">g.10381662G&gt;A</ns2:name>
+        <ns2:aliases>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000201.2"/>
+                <ns2:name scheme="HGVS">c.-174G&gt;A</ns2:name>
+            </ns2:variant>
+        </ns2:aliases>
+        <ns2:location>
+            <ns2:ref_seq accession="hg19"/>
+            <ns2:chr>19</ns2:chr>
+            <ns2:start>10381662</ns2:start>
+        </ns2:location>
+    </ns2:variant>
+    <ns2:variant type="DNA">
+        <ns2:ref_seq source="refseq" accession="NC_000019.9"/>
+        <ns2:name scheme="HGVS">g.10381662_10381682del</ns2:name>
+        <ns2:aliases>
+            <ns2:variant type="DNA">
+                <ns2:ref_seq source="refseq" accession="NM_000201.2"/>
+                <ns2:name scheme="HGVS">c.-174_-154del</ns2:name>
+            </ns2:variant>
+        </ns2:aliases>
+        <ns2:location>
+            <ns2:ref_seq accession="hg19"/>
+            <ns2:chr>19</ns2:chr>
+            <ns2:start>10381662</ns2:start>
+            <ns2:end>10381682</ns2:end>
+        </ns2:location>
+    </ns2:variant>
+    <ns2:batch_error row_id="chr19:g.10381662G&gt;F" type="grammar"> Expected W:(acgt...) (at char 24), (line:1, col:25)		</ns2:batch_error>
+</ns2:mutalyzer_results>

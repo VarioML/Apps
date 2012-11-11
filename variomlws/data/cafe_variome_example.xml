@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:cafe_variome xmlns:ns2="http://varioml.org/xml/1.0">
+    <ns2:source id="leicester_lab">
+        <ns2:name>leicester_lab</ns2:name>
+        <ns2:url>http://www.le.ac.uk/genetics</ns2:url>
+        <ns2:contact>
+            <ns2:name>Owen Lancaster</ns2:name>
+            <ns2:email>ol8@leicester.ac.uk</ns2:email>
+        </ns2:contact>
+    </ns2:source>
+    <ns2:variant type="cDNA">
+        <ns2:gene source="hgnc.symbol" accession="COL1A1"/>
+        <ns2:ref_seq source="refseq" accession="NG_007400.1"/>
+        <ns2:name scheme="HGVS">c.579delT</ns2:name>
+        <ns2:panel>
+            <ns2:individual>
+                <ns2:gender code="1"/>
+            </ns2:individual>
+        </ns2:panel>
+        <ns2:pathogenicity term="pathogenic" scope="family">
+            <ns2:phenotype term="Osteogenesis Imperfecta"/>
+            <ns2:evidence_code term="curator inference" source="obo.eco" accession="ECO:0000205"/>
+        </ns2:pathogenicity>
+        <ns2:variant_detection template="DNA" technique="CMC"/>
+        <ns2:genetic_origin term="paternal">
+            <ns2:evidence_code term="inferred"/>
+        </ns2:genetic_origin>
+        <ns2:sharing_policy type="embargoedAccess">
+            <ns2:embargo_end_date>2012-12-12</ns2:embargo_end_date>
+            <ns2:use_permission uri="http://creativecommons.org/publicdomain/zero/1.0/" term="Creative commons" accession="CC0"/>
+        </ns2:sharing_policy>
+        <ns2:comment>
+            <ns2:text>Variant inherited from affected father</ns2:text>
+        </ns2:comment>
+    </ns2:variant>
+</ns2:cafe_variome>

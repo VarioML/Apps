@@ -1,0 +1,71 @@
+{
+  "sources" : [ {
+    "id" : "leicester_lab",
+    "name" : "leicester_lab",
+    "urls" : [ "http://www.le.ac.uk/genetics" ],
+    "contacts" : [ {
+      "name" : "Owen Lancaster",
+      "email" : "ol8@leicester.ac.uk"
+    } ]
+  } ],
+  "variants" : [ {
+    "type" : "cDNA",
+    "genes" : [ {
+      "accession" : "COL1A1",
+      "source" : "hgnc.symbol"
+    } ],
+    "ref_seq" : {
+      "accession" : "NG_007400.1",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "c.579delT"
+    },
+    "panels" : [ {
+      "individuals" : [ {
+        "gender" : {
+          "code" : 1
+        }
+      } ]
+    } ],
+    "pathogenicities" : [ {
+      "scope" : "family",
+      "term" : "pathogenic",
+      "phenotypes" : [ {
+        "term" : "Osteogenesis Imperfecta"
+      } ],
+      "evidence_codes" : [ {
+        "accession" : "ECO:0000205",
+        "source" : "obo.eco",
+        "term" : "curator inference"
+      } ]
+    } ],
+    "variant_detection" : {
+      "technique" : "CMC",
+      "template" : "DNA"
+    },
+    "genetic_origins" : [ {
+      "term" : "paternal",
+      "evidence_codes" : [ {
+        "term" : "inferred"
+      } ]
+    } ],
+    "sharing_policy" : {
+      "type" : "embargoedAccess",
+      "embargo_end_date" : {
+        "value" : "2012-12-12"
+      },
+      "use_permission" : {
+        "accession" : "CC0",
+        "term" : "Creative commons",
+        "uri" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    "comments" : [ {
+      "texts" : [ {
+        "string" : "Variant inherited from affected father"
+      } ]
+    } ]
+  } ]
+}

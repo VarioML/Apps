@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://varioml.org/xml/1.0" xmlns:vml="http://varioml.org/xml/1.0">
+  <xs:include schemaLocation="lsdb.xsd"/>
+  <xs:element name="mutalyzer_results">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="vml:variant"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="vml:batch_error"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="batch_error">
+    <xs:complexType mixed="true">
+      <xs:attribute name="row_id" use="required" type="xs:string"/>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,189 @@
+{
+  "variants" : [ {
+    "type" : "DNA",
+    "ref_seq" : {
+      "accession" : "NC_000001.10",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.100315752C>G"
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000028.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-771C>G"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000642.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-288C>G"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000643.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-491C>G"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000644.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-431C>G"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000646.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-1038C>G"
+        }
+      } ]
+    },
+    "locations" : [ {
+      "ref_seq" : {
+        "accession" : "hg19"
+      },
+      "chr" : "1",
+      "start" : 100315752
+    } ]
+  }, {
+    "type" : "DNA",
+    "ref_seq" : {
+      "accession" : "NC_000001.10",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.155259323C>T"
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000298.5",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.*1040G>A"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_181871.3",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.*1040G>A"
+        }
+      }, {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_020897.1",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.*1069C>T"
+        }
+      } ]
+    },
+    "locations" : [ {
+      "ref_seq" : {
+        "accession" : "hg19"
+      },
+      "chr" : "1",
+      "start" : 155259323
+    } ]
+  }, {
+    "type" : "DNA",
+    "ref_seq" : {
+      "accession" : "NC_000019.9",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.10381662G>A"
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000201.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-174G>A"
+        }
+      } ]
+    },
+    "locations" : [ {
+      "ref_seq" : {
+        "accession" : "hg19"
+      },
+      "chr" : "19",
+      "start" : 10381662
+    } ]
+  }, {
+    "type" : "DNA",
+    "ref_seq" : {
+      "accession" : "NC_000019.9",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.10381662_10381682del"
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000201.2",
+          "source" : "refseq"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.-174_-154del"
+        }
+      } ]
+    },
+    "locations" : [ {
+      "ref_seq" : {
+        "accession" : "hg19"
+      },
+      "chr" : "19",
+      "start" : 10381662,
+      "end" : 10381682
+    } ]
+  } ],
+  "batch_errors" : [ {
+    "row_id" : "chr19:g.10381662G>F",
+    "type" : "grammar",
+    "string" : " Expected W:(acgt...) (at char 24), (line:1, col:25)\t\t"
+  } ]
+}

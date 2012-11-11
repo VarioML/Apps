@@ -1,0 +1,157 @@
+{
+  "sources" : [ {
+    "id" : "sourceid0001",
+    "uri" : "http://alamut.com",
+    "name" : "Alamut Database",
+    "contacts" : [ {
+      "name" : "Contact person.."
+    } ]
+  } ],
+  "variants" : [ {
+    "id" : "{5a4a5af9-693c-4771-a6ad-2cd2d851e7fe}",
+    "type" : "DNA",
+    "genes" : [ {
+      "accession" : "COL1A1",
+      "source" : "hgnc.symbol"
+    } ],
+    "ref_seq" : {
+      "accession" : "NC_000017.10",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.48270186_48270188del"
+    },
+    "panels" : [ {
+      "id" : "1",
+      "type" : "family",
+      "individuals" : [ {
+        "id" : "1"
+      } ],
+      "organism" : {
+        "term" : "homo sapiens"
+      }
+    } ],
+    "variant_types" : [ {
+      "accession" : "SO:0000159",
+      "source" : "obo.so",
+      "term" : "deletion"
+    } ],
+    "pathogenicities" : [ {
+      "panel_ref" : "1",
+      "term" : "Non-pathogenic",
+      "phenotypes" : [ {
+        "accession" : "166210",
+        "source" : "omim",
+        "term" : "osteogenesis imperfecta, type-1"
+      } ],
+      "comments" : [ {
+        "texts" : [ {
+          "content_type" : "text/html",
+          "string" : "HTML TEXT HERE"
+        } ]
+      } ]
+    } ],
+    "seq_changes" : {
+      "variants" : [ {
+        "type" : "AA",
+        "ref_seq" : {
+          "accession" : "NM_000088.3"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "p.Glu615_Ala616delinsAsp"
+        }
+      } ]
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000088.3"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.1845_1847del"
+        }
+      } ]
+    },
+    "locations" : [ {
+      "ref_seq" : {
+        "accession" : "NC_000017.10",
+        "source" : "refseq"
+      },
+      "start" : 48270186,
+      "end" : 48270188
+    } ],
+    "sharing_policy" : {
+      "type" : "openAccess"
+    },
+    "protocol_ids" : [ {
+      "accession" : "CMGS_VGKL_5"
+    } ]
+  }, {
+    "id" : "{09b3d78f-39c7-42e0-b5a1-9894e28d69f0}",
+    "type" : "DNA",
+    "genes" : [ {
+      "accession" : "COL1A1",
+      "source" : "hgnc.symbl"
+    } ],
+    "ref_seq" : {
+      "accession" : "NC_000017.10",
+      "source" : "refseq"
+    },
+    "name" : {
+      "scheme" : "HGVS",
+      "string" : "g.48270179_48270180del"
+    },
+    "panels" : [ {
+      "organism" : {
+        "term" : "homo sapiens"
+      }
+    } ],
+    "variant_types" : [ {
+      "accession" : "SO:0000159",
+      "source" : "obo.so",
+      "term" : "deletion"
+    } ],
+    "pathogenicities" : [ {
+      "term" : "Non-pathogenic",
+      "phenotypes" : [ {
+        "accession" : "166210",
+        "source" : "OMIM",
+        "term" : "osteogenesis imperfecta, type-1"
+      } ]
+    } ],
+    "seq_changes" : {
+      "variants" : [ {
+        "type" : "AA",
+        "ref_seq" : {
+          "accession" : "NM_000088.3"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "p.Gln619GlyfsX14"
+        }
+      } ]
+    },
+    "aliases" : {
+      "variants" : [ {
+        "type" : "DNA",
+        "ref_seq" : {
+          "accession" : "NM_000088.3"
+        },
+        "name" : {
+          "scheme" : "HGVS",
+          "string" : "c.1853_1854del"
+        }
+      } ]
+    },
+    "sharing_policy" : {
+      "type" : "openAccess"
+    },
+    "protocol_ids" : [ {
+      "accession" : "CMGS_VGKL_5"
+    } ]
+  } ]
+}

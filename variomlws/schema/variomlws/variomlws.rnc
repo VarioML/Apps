@@ -1,0 +1,28 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+default namespace vml = "http://varioml.org/xml/1.0"
+
+namespace local = ""
+
+
+include "../lsdb_main/lsdb.rnc" { start |= notAllowed }
+
+## Relax NGC schema for cafe avriome web services
+## Contact: Juha.Muilu (juha.muilu@helsinki.fi)
+##
+## we ae using varioml name space.. this is not needed, but name spaces do not matter
+## if we like to use json, since json do not have name spaces
+
+start = mutalyzer_results 
+
+
+## Mutalyzer output
+mutalyzer_results = element mutalyzer_results {
+    variant*,
+    batch_error*
+}
+
+batch_error = element batch_error { 
+    attribute row_id { xsd:string},
+    attribute type { xsd:string},
+    text
+}

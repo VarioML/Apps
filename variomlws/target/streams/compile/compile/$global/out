@@ -1,0 +1,30 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/muilu/Dev/eclipse/hack/variomlws/src/main/scala/examples/TestMe.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/muilu/Dev/eclipse/hack/variomlws/src/main/scala/examples/TestMe.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/muilu/Dev/eclipse/hack/variomlws/src/main/scala/examples/TestMe.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/muilu/Dev/eclipse/hack/variomlws/target/scala-2.9.2/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 301e4154, interfacing (CompilerInterface) with Scala compiler version 2.9.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/muilu/Dev/eclipse/hack/variomlws/target/scala-2.9.2/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/jre/classes:/Users/muilu/.sbt/boot/scala-2.9.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/muilu/Dev/eclipse/hack/variomlws/target/scala-2.9.2/classes[0m
+[0m[[31merror[0m] [0m/Users/muilu/Dev/eclipse/hack/variomlws/src/main/scala/examples/TestMe.scala:2: object codahale is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.codahale.logula.Logging[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mone error found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
