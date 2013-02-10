@@ -3,7 +3,7 @@ package network;
 /**
  * Routes for the web server.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class Routes {

@@ -28,7 +28,7 @@ import database.VariantDatabase;
  * This class handles requests which need queries to a variant 
  * database.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class VariantHandler extends BaseHandler {

@@ -30,7 +30,7 @@ import database.VariantDatabaseMongoDB;
  * <a href="http://www.ensembl.org/index.html">Ensembl</a> website and
  * <a href="http://www.ncbi.nlm.nih.gov/projects/sviewer/">NCBI Sequence Viewer</a>.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  */
 
 public class ServerApplication {

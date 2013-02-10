@@ -5,7 +5,7 @@ import java.util.Hashtable;
 /**
  * This class deals with <a href="http://en.wikipedia.org/wiki/MIME">MIME types</a>.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class MimeType {

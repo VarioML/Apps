@@ -3,7 +3,7 @@ package database;
 /**
  * A common base class for variant databases.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public abstract class VariantDabaseCommon implements VariantDatabase {

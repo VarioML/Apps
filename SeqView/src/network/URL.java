@@ -11,7 +11,7 @@ import org.eclipse.jetty.util.MultiMap;
  * Abstraction over a URL. Extracts some useful information
  * from the Request object.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class URL {

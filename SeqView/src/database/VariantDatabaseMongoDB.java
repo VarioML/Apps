@@ -16,7 +16,7 @@ import com.mongodb.DBObject;
 /**
  * Variant database using the MongoDB database system.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class VariantDatabaseMongoDB extends VariantDabaseCommon implements VariantDatabase {

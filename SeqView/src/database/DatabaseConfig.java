@@ -8,7 +8,7 @@ import java.util.Map;
  * <p>Basically, this class is just a wrapper over 
  * java.util.Map.</p>
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class DatabaseConfig {

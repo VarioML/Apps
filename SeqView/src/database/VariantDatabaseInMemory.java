@@ -33,7 +33,7 @@ import com.orientechnologies.orient.core.storage.OStorage;
  * <p>The database engine used is 
  * <a href="http://www.orientdb.org/">OrientDB</a>.</p>
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 

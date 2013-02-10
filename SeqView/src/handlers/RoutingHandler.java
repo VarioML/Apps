@@ -17,7 +17,7 @@ import org.eclipse.jetty.server.handler.AbstractHandler;
  * method of the appropriate handler. Hence the
  * <em>routing</em> handler.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class RoutingHandler extends AbstractHandler {
@@ -91,7 +91,7 @@ public class RoutingHandler extends AbstractHandler {
      * <li>/projects/sviewer</li>
      * <li>/projects</li>
      * </ol>
-     * @author Tuomas Pellonperä
+     * @author Tuomas Pellonper√§
      *
      */
     private class RouteIterator implements Iterator<String> {

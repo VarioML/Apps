@@ -14,7 +14,7 @@ import org.eclipse.jetty.http.HttpMethods;
  * be rewritten (prefix rules).
  * <p>Static rules take precedence over prefix ones.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class UriRewriter {

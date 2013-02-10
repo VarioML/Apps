@@ -29,7 +29,7 @@ import org.eclipse.jetty.server.handler.AbstractHandler;
  * <p>This class is the base class for other handlers in this application. 
  * The subclasses must implement the 'handle' method.</p>
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public abstract class BaseHandler extends AbstractHandler {

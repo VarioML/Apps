@@ -4,7 +4,7 @@ package security;
  * Combat security vulnerabilities arising from 
  * <a href="http://en.wikipedia.org/wiki/SQL_injection">SQL injections</a>.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class SqlParameter {

@@ -19,7 +19,7 @@ import database.GeneNameDatabase;
  * This class handles requests related to gene names (requests
  * which involve queries to a gene name database).
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class GeneNameHandler extends BaseHandler {

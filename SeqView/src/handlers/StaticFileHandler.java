@@ -34,7 +34,7 @@ import security.FileAccessControl;
  * This class handles requests to static files
  * (e.g. JavaScript files, CSS files, etc).
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class StaticFileHandler extends BaseHandler {
