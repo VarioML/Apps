@@ -3,7 +3,7 @@ package database;
 /**
  * Interface for variant databases.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public interface VariantDatabase {

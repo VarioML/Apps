@@ -3,7 +3,7 @@ package database;
 /**
  * Class for database connection exceptions.
  *  
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class DatabaseConnectionException extends Exception {

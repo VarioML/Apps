@@ -8,7 +8,7 @@ import java.net.URISyntaxException;
 /**
  * Control access to the file system.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class FileAccessControl {

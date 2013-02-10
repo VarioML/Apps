@@ -23,7 +23,7 @@ import org.eclipse.jetty.server.Request;
  * to the <a href="http://www.ncbi.nlm.nih.gov/projects/sviewer/">Sequence
  * Viewer</a>.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class NcbiHandler extends BaseHandler {

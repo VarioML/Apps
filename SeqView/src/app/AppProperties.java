@@ -10,7 +10,7 @@ import java.util.Properties;
  * This class represents the configurable properties of the
  * application.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class AppProperties {

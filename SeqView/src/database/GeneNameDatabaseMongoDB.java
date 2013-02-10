@@ -13,7 +13,7 @@ import com.mongodb.QueryBuilder;
 /**
  * Class for GeneNameDatabase using the MongoDB database system.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class GeneNameDatabaseMongoDB implements GeneNameDatabase {

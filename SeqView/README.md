@@ -33,3 +33,4 @@ The code depends on the following jar files:
   * orientdb-core-1.2.0.jar
 
 note: code moved from https://github.com/tuope/SeqViewDemo.git
+UTF-8 is used in Java files

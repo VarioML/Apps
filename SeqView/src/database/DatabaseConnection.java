@@ -3,7 +3,7 @@ package database;
 /**
  * Abstract class for database connections.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public abstract class DatabaseConnection {

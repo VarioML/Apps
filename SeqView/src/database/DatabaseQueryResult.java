@@ -12,7 +12,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
  * Class for database query results. Essentially, this class is
  * a subclass of java.util.Map.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class DatabaseQueryResult

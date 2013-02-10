@@ -12,7 +12,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
  * A serializable class for 
  * <a href="http://www.genenames.org/">HGNC</a> data.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class HgncData

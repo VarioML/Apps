@@ -10,7 +10,7 @@ import com.mongodb.MongoException;
 /**
  * A class representing a connection to a MongoDB database.
  * 
- * @author Tuomas Pellonperä
+ * @author Tuomas Pellonper√§
  *
  */
 public class MongoDatabaseConnection extends DatabaseConnection {
