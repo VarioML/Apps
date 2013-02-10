@@ -1,13 +1,13 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/muilu/Dev/eclipse/hack/variomlws/project/}default-b6347d...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/muilu/Dev/Repos/Apps/variomlws/project/}default-b05478...[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-b6347d;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-b05478;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve default#default-060112;0.0[0m
 [0m[[0minfo[0m] [0mResolving default#default-060112;0.0 ...[0m
@@ -89,16 +89,16 @@
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-060112;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime[0m
@@ -126,19 +126,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-060112;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test[0m
@@ -166,13 +166,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=provided[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.1 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-sbt#sbt;0.12.1[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.1 ...[0m
@@ -1471,28 +1471,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=optional[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-060112;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile-internal[0m
@@ -1520,16 +1520,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-sbt#main;0.12.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#main;0.12.1 of rootConf=compile-internal[0m
@@ -2339,28 +2339,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-060112;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime-internal[0m
@@ -2388,25 +2388,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->default#default-060112;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-060112;0.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-060112;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test-internal[0m
@@ -2434,16 +2434,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-sbt#main;0.12.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#main;0.12.1 of rootConf=test-internal[0m
@@ -3253,30 +3253,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b6347d;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-b05478;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [plugin][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=plugin[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [sources][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=sources[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [docs][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=docs[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b6347d;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-b6347d;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-b05478;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-b05478;0.1-SNAPSHOT of rootConf=pom[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 45[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
@@ -3539,10 +3539,8 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in test-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in provided: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in compile-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/default/default-b6347d/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/default/default-b05478/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar(doc)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.pom[0m
@@ -3565,6 +3563,8 @@
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar(doc)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-060112;0.0!default-060112.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0!sbteclipse-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.1.0!sbteclipse-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar[0m
@@ -3628,7 +3628,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.1!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.1!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2489ms :: artifacts dl 69ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2950ms :: artifacts dl 78ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -3647,7 +3647,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT compile produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT compile produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/compile-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -3666,7 +3666,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT runtime produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT runtime produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/runtime-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -3685,7 +3685,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT test produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT test produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 41[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.1 / Number of dependencies = 12[0m
@@ -3920,9 +3920,9 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT provided produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT provided produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT optional produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT optional produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/optional-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 45[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
@@ -4175,7 +4175,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT compile-internal produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT compile-internal produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/compile-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 5[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -4194,7 +4194,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT runtime-internal produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT runtime-internal produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/runtime-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 45[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-060112;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6[0m
@@ -4447,14 +4447,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT test-internal produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT test-internal produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/test-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT plugin produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT plugin produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/plugin-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT sources produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT sources produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/sources-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT docs produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT docs produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-b6347d;0.1-SNAPSHOT pom produced in /Users/muilu/Dev/eclipse/hack/variomlws/project/target/resolution-cache/reports/default-default-b6347d/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2489ms resolve - 69ms download)[0m
+[0m[[0mdebug[0m] [0m	report for default#default-b05478;0.1-SNAPSHOT pom produced in /Users/muilu/Dev/Repos/Apps/variomlws/project/target/resolution-cache/reports/default-default-b05478/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2950ms resolve - 78ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

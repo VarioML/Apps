@@ -1,0 +1,33 @@
+#######################################################################
+# This is a Java properties file 
+# (see <http://en.wikipedia.org/wiki/.properties> for more details).
+# You can configure the server here by setting appropriate 
+# parameters (no need to recompile the classes).
+# 
+# This file is read by src/app/AppProperties.java file.
+# 
+# Any of the parameters listed below can be given on the commandline too.
+# In that case, the values given on the commandline override those given
+# in this file.
+#######################################################################
+#
+# The port number the server will be listening on.
+# port = 8080
+# 
+# The JSON file which contains the HGNC gene data.
+# See genedata/hgnc_genes.json for an example.
+# genedb = genedata/hgnc_genes.json
+# 
+# The JSON file which contains the variant data.
+# See genedata/variants.json for an example.
+# variantdb = genedata/variants.json
+# 
+# Use an in-memory database. This is the default.
+# database = memory
+#
+# Use a MongoDB database.
+# database = mongo
+# 
+# The directory to serve the public (and static) files from.
+# wwwdir = public
+# 

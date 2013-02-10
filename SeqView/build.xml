@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="run" name="Run the embedded server">
+	<property name="src.dir" location="src" />
+	<property name="bin.dir" location="bin" />
+	<property name="jars.dir" location="jars" />
+	<property name="seqviewdemo.jar" location="seqviewdemo.jar" />
+	<path id="seqviewdemo.classpath">
+		<fileset dir="${bin.dir}">
+			<include name="**/*.class" />
+		</fileset>
+		<fileset dir="${jars.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<target name="clean">
+		<delete dir="${bin.dir}" />
+	</target>
+	<target name="makedir">
+		<mkdir dir="${bin.dir}" />
+	</target>
+	<target name="run" depends="compile,makejar">
+		<java jar="${seqviewdemo.jar}" fork="true">
+			<classpath refid="seqviewdemo.classpath"/>
+			<jvmarg value="-Xms512m" />
+			<jvmarg value="-Xmx1024m" />
+		</java>
+	</target>
+	<target name="compile" depends="clean,makedir">
+		<javac srcdir="${src.dir}" destdir="${bin.dir}">
+			<classpath refid="seqviewdemo.classpath"/>
+		</javac>
+	</target>
+	<target name="makejar" depends="compile">
+		<jar destfile="${seqviewdemo.jar}" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Main-Class" value="network.ServerApplication"/>
+				<attribute name="Class-Path" value="."/>
+			</manifest>
+			<fileset dir="${bin.dir}"/>
+			<zipgroupfileset dir="${jars.dir}" includes="*.jar" />
+		</jar>
+	</target>
+</project>
