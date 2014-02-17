@@ -9,7 +9,7 @@ is also provided.
 How to run the server
 ---------------------
 
-To launch the web server, run src/network/ServerApplication.java as "Java application." 
+To launch the web server, run src/network/ServerApplication.java as "Java application." for example using ant. 
 The server reads options from the file "app.config" and from the command line. The default 
 port is 8080. When the server is running, browse to 
   [localhost](http://localhost:8080/fimmwidget.html).
