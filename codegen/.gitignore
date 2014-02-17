@@ -11,7 +11,6 @@ project/plugins/project/
 
 application.conf
 
-out/
 # Scala-IDE specific
 .scala_dependencies
 
